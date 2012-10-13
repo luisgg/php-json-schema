@@ -5,7 +5,7 @@ OMV_PACKAGE := $(shell pwd | sed 's|.*/||')
 	dh $@ --parallel
 
 override_dh_install:
-	unzip $(CURDIR)/json-schema-php_0.2.0.zip
+	unzip /usr/share/omv-extra-sources/sources/json-schema-php_0.2.0.zip
 	touch extract-stamp
 	dh_quilt_patch
 	touch patch-stamp
