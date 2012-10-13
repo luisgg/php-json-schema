@@ -2,7 +2,8 @@ Source: php-json-schema
 Section: php
 Priority: optional
 Maintainer: Volker Theile <volker.theile@openmediavault.org>
-Build-Depends: debhelper (>= 7), unzip
+Uploaders: Luis Antonio Garcia Gisbert <luisgg@gmail.com>
+Build-Depends: debhelper (>= 7), unzip, omv-extra-sources
 Standards-Version: 3.8.4
 Homepage: http://code.google.com/p/json-schema-php
 

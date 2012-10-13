@@ -1,3 +1,14 @@
+php-json-schema (0.2.0+svn161-0aurex1) precise; urgency=low
+
+  * Upstream snapshot based on 'trunk' revision 161 (2012-10-13)
+  * Removed incorrect 'source/format 3.0 (quilt)', because conflicts with
+    dh_quilt invocation in rules. The package not includes the upstream
+    source code (debian/rules 'unzips' the source), so it's easy to patch
+    with dh_quilt in debian/rules AFTER unzipping (as original packaging does)
+  * Rebuild for aurex 12.04
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sat, 13 Oct 2012 11:29:18 +0200
+
 php-json-schema (0.2.0) stable; urgency=low
 
   * Initial release
